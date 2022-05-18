@@ -1,5 +1,5 @@
 # (백준 2475번, Class 1) 검증수
-for 문을 이용하여 계산할 것
+# for 문을 이용하여 계산할 것
 arr = list(map(int, input().split()))
 r = 0
 for i in arr:
