@@ -23,3 +23,4 @@ print(arr.index(max(arr))+1)
 # 정수형으로 입력받고 append에 의해 arr라는 리스트에 하나씩 추가됨
 # arr리스트의 최대값 출력
 # arr 최댓값의 index(위치) 반환, 이때 index의 위치는 0부터 시작하므로 +1을 해준다
+
