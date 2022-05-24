@@ -5,7 +5,7 @@ dp[0] = [x for x in range(15)]
 
 for i in range(1, 15):
     for j in range(1,15):
-         dp[i][j] = dp[i-1][j-1] + dp[i-1][j]
+         dp[i][j] = dp[i][j-1] + dp[i-1][j]
 
 
 for _ in range(t):
