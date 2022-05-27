@@ -6,6 +6,6 @@ while i*3 <= n:
         break
     i+=1
 else:
-    print(n-1)
+    print(-1)
     exit(0)
 print(i+q)
