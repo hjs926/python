@@ -1,12 +1,10 @@
-n=int(input())
-num=[]
-
-for _ in range(n):
-    x = int(input())
-    num.append(x)
-
-for i in sorted(num):
-    print(i)
+import sys
+n = int(input())
+l = []
+for i in range(n):
+    l.append(int(sys.stdin.readline()))
+for i in sorted(l):
+    sys.stdout.write(str(i)+'\n')
 # 1.  파이썬 -> 인터프리터 언어 느림
 # 1-> pypy3 이용 = 파이썬, 데이터 처리 속도 향상, 메모리 많이
 # 입출력 -> 표준 입출력
