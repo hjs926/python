@@ -1,9 +1,12 @@
-n = int(input())
-arr = [int(input())for _ in range(n)]
-arr.sort()
+n=int(input())
+num=[]
 
-for x in arr:
-    print(x)
+for _ in range(n):
+    x = int(input())
+    num.append(x)
+
+for i in sorted(num):
+    print(i)
 # 1.  파이썬 -> 인터프리터 언어 느림
 # 1-> pypy3 이용 = 파이썬, 데이터 처리 속도 향상, 메모리 많이
 # 입출력 -> 표준 입출력
