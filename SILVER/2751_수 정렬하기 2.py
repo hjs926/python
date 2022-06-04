@@ -1,18 +1,9 @@
 n = int(input())
 arr = [int(input())for _ in range(n)]
+arr.sort()
 
-def qsort(arr):
-    if len(arr) <= 1:
-        return arr
-    pivot = arr.pop()
-    left = [x for x in arr if x < pivot]
-    right = [x for x in arr if x > pivot]
-
-    return qsort(left) + [pivot] + qsort(right)
-
-for x in qsort(arr):
+for x in arr:
     print(x)
-
 # 1.  파이썬 -> 인터프리터 언어 느림
 # 1-> pypy3 이용 = 파이썬, 데이터 처리 속도 향상, 메모리 많이
 # 입출력 -> 표준 입출력
