@@ -1,4 +1,4 @@
-
+n = int(input())
 arr = [int(input())for _ in range(n)]
 
 def qsort(arr):
@@ -10,6 +10,13 @@ def qsort(arr):
 
     return qsort(left) + [pivot] + qsort(right)
 
-    for x in qsort(arr):
-        print(x)
+for x in qsort(arr):
+    print(x)
 
+# 1.  파이썬 -> 인터프리터 언어 느림
+# 1-> pypy3 이용 = 파이썬, 데이터 처리 속도 향상, 메모리 많이
+# 입출력 -> 표준 입출력
+# 3.3 퀵 정렬 -> 최악의 경우 0(n^2)
+
+# 1 2 3 4 5 6 7 8 9 10 -> 시간초과 x 메모리초과
+# -> 피벗을 랜덤
