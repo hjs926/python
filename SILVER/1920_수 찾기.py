@@ -3,6 +3,7 @@ n = stdin.readline()
 N = sorted(map(int,stdin.readline().split()))
 m = stdin.readline()
 M = map(int, stdin.readline().split())
+
 def binary(l, N, start, end):
     if start > end:
         return 0
@@ -13,6 +14,7 @@ def binary(l, N, start, end):
         return binary(l, N, start, m-1)
     else:
         return binary(l, N, m+1, end)
+        
 for l in M:
     start = 0
     end = len(N)-1
