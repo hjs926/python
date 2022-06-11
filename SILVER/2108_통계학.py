@@ -11,9 +11,9 @@ for _ in range(n):
     count[x] +=1
     total +=x
     _max = max(_max, x)
-    _min = min(_minx, x)
+    _min = min(_min, x)
     mcount = max(mcount, count[x])
-avg = total .n
+avg = total / n
 arr.sort()
 mid = arr[n/2]
 cnt = 0
@@ -29,4 +29,4 @@ print(format(avg,'.0f'))
 print(mid)
 print(mode)
 print(rng)
-        
+    
