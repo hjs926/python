@@ -13,3 +13,20 @@ for _ in range(n):
     _max = max(_max, x)
     _min = min(_minx, x)
     mcount = max(mcount, count[x])
+avg = total .n
+arr.sort()
+mid = arr[n/2]
+cnt = 0
+mode = 0
+for i in range(-4000, 4001):
+    if mcount == count[i]:
+        mode = 1
+        cnt += 1
+        if cnt == 2:
+            break
+rng = _max - _min
+print(format(avg,'.0f'))
+print(mid)
+print(mode)
+print(rng)
+        
