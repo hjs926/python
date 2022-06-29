@@ -8,3 +8,4 @@ for i in range(1, 10001):       # i = 850
 
 self_num = sorted(natural_num - generated_num)
 for i in self_num:
+    print(i)
