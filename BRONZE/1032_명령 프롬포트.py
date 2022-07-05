@@ -6,4 +6,5 @@ for i in range(n - 1):
     for j in range(a_len):
         if a[j] != b[j]:
             a[j] = '?'
+
 print(''.join(a))
