@@ -8,5 +8,6 @@ def hansu(num) :
             hansu_cnt += 1  # x의 각 자리가 등차수열이면 한수
     return hansu_cnt
 
+
 num = int(input())
 print(hansu(num))
