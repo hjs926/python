@@ -10,12 +10,3 @@ while X>line:
 
 if line%2==0:
     a=X
-
-if line%2==0:
-    a=X
-    b=line-X+1
-else:
-    a=line-X+1
-    b=X
-
-print(a, '/',b sep='')
