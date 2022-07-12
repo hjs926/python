@@ -13,3 +13,5 @@ def fibonacci(n):
         dp[i]=dp[i-1]+dp[i-2]
     return cnt2
 
+n=int(input())
+print(fib(n),fibonacci(n))
