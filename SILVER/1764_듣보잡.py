@@ -10,3 +10,7 @@ for i in range(m):
 
 result = sorted(list(a & b))
 
+print(len(result))
+
+for i in result:
+    print(i)
